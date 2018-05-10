@@ -1,6 +1,1 @@
-Cool project :)
-Tested
-
-Different
-
-:)
+This is the new version
