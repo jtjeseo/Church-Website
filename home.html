@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jared's Site</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="javascript/effects.js"></script>		
+</head>
+
+<body>
+	<!-- MAIN NAVIGATION WITH DROP DOWN MENUS -->
+	<header class="ph-site-header">
+		<div class="container clearfix">
+			<img src = "images/Logo.png" class="logo">
+			<div class="main-nav">
+				<ul class="dropdown">
+					<button class="dropbtn">HOME</button>
+				</ul>
+				<div class="dropdown">
+					<button class="dropbtn">I'M NEW</button>
+					<div class="dropdown-content">
+						<a href="#">Who We Are</a>
+						<a href="#">What To Expect</a>
+						<a href="#">Where We Are</a>
+						<a href="#">Leadership</a>
+						<a href="#">Contact Us</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">CONNECT</button>
+					<div class="dropdown-content">
+						<a href="#">Starting Point</a>
+						<a href="#">Kids & Students</a>
+						<a href="#">Small Groups</a>
+						<a href="#">Women of Phos</a>
+						<a href="#">Men of Phos</a>
+						<a href="#">Need to Talk</a>
+						<a href="#">Church Community Builder</a>
+						<a href="#">Connect Card</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">EVENTS</button>
+					<div class="dropdown-content">
+						<a href="#">Church Wide</a>
+						<a href="#">Kids</a>
+						<a href="#">Students</a>
+						<a href="#">Men</a>
+						<a href="#">Women</a>
+						<a href="#">Alive Sports Camp</a>
+						<a href="#">Alive Volunteers</a>
+						<a href="#">Calendar</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href = "#"><button class="dropbtn">MESSAGES</button></a>
+				</div>
+				<div class="dropdown">
+					<a href = "#"><button class="dropbtn">GIVE</button></a>
+				</div>
+			</div>
+	</header>
+
+	<!-- BANNER IMAGE -->
+	<!-- <banner>
+		<img src="images/Mainbanner.jpg" alt="Phos Church">
+	</banner> -->
+
+	<div class="container">
+	<video autoplay preload class="ph-video-bg" muted loop id="myVideo">
+		<source src="video/Video BG.mp4" type="video/mp4">
+	  </video>
+	</div>
+
+	<div class="app-section">
+		<div class="right-col">
+			<h1>You don't have to say goodbye anymore</h2>
+				<p>Take the Phos app with you for instant inspiration</p>
+				<button>Get The App</button>
+		</div>
+		<div class="iphone">
+			<img src="images/iPhone.png" alt="iPhone App" id="iphone">
+		</div>
+	</div>
+
+	<!-- GOOGLE MAP	-->
+	<div id="map"></div>
+
+	<footer class="main-footer">
+		<span>&copy;2017 Created by Jared Jeseo</span>
+	</footer>
+	<script src="javascript/googleMaps.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRunFNpaRxislTebB5PMLpEVt1QZ5zIG8&callback=initMap">
+	</script>
+</body>
+
+
+</html>
